@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe app</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="modal__container" id="modal__containerr">
+      <div class="modal-inner">
+        <div class="modal__content"></div>
+        <button class="modal__btn" id="modal__button"><i class="fas fa-times"></i></button>        
+      </div>
+    </div>
+    <div class="container">
+      <div class="backdrop"></div>
+      <div class="section-left">
+        <h2>Recipe App</h2>
+        <nav>
+          <ul class="section-left__items">
+            <li class="section-left__item">
+              <a href="#">
+                <span><i class="fas fa-border-all"></i></span>
+                Overview </a>
+            </li>
+            <li class="section-left__item active">
+              <a href="#">
+                <span><i class="fas fa-receipt"></i></span>
+                Recepie
+              </a>
+            </li>
+            <li class="section-left__item">
+              <a href="#">
+                <span><i class="far fa-heart"></i></span>
+                Favourites
+              </a>
+            </li>
+            <li class="section-left__item">
+              <a href="#">
+                <span><i class="fas fa-cog"></i></span>
+                Settings
+              </a>
+            </li>
+          </a>
+          </ul>
+        </nav>
+        <div class="section-left__avater">
+          <img src="img/Rohit_khan.jpg" alt="" />
+          <p>Mostakin</p>
+        </div>
+      </div>
+      <div class="section-right">
+        <div class="section-right-container">
+          <div class="section-right-top">
+            <div class="section-right-top__search">
+              <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+              </div>
+              <input type="text" id="input" placeholder="Search By food name" />
+              <button id ="search" class="btn ">Search</button>             
+            </div>
+          </div>
+          <div class="section-right-center">
+            <img src="img/banner-final.jpg" alt="" /> 
+          </div>
+          <div class="section-right-bottom">
+            <!-- <div class="recepie__card">
+              <img src="img/1.jpg" alt="">
+              <h2>Potato chips</h2>
+              <button class="btn">Get Recepie</button>
+            </div> -->
+            <!-- <div class="err">
+              <h3>Search For just Chicken, Beef,Egg</h3>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
